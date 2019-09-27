@@ -16,5 +16,5 @@ function addButtonClicked() {
 
     const sum = number1 + number2
     const outputDiv = document.getElementById('output')
-    outputDiv.innerHTML = "The sum of two numbers is" + sum
+    outputDiv.innerHTML = "The sum of two numbers is " + sum
 }

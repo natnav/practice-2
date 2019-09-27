@@ -1,5 +1,7 @@
-const name = prompt("What's your name?")
+const addButton = document.getElementById('addButton')
 
-const output = document.getElementById("output")
+addButton.addEventListener('click', onClicked)
 
-output.innerHTML = "Hello" + name + "!"
+function onClicked() {
+    alert("you clicked on the button")
+}
